@@ -1,6 +1,11 @@
 # tag-lang
 the abstraction game language
 ```
+######### kinds ###########
+
+- |> triangle (red)
+- [] square (yellow)
+- () circle (blue)
 
 |> -- outside of the system
 
@@ -19,52 +24,41 @@ the abstraction game language
 [] = [] -- type conversion
 
 ########### tag0 ############
-
-bool: [<0|1>]
-
-0 =0?: [1]
-1 =0?: [0]
-0 =1?: [0]
-1 =1?: [1]
-
-list a: [< a . list a | empty >]
-
-apply0 f: (f 0)
-apply1 f: (f 1)
-
-########### tag1 #############
-
--- curry?
-
-curry 
-
-```
-
--------
-
-attempt2: tags can only use [] from the same level
-
-```
-
-##### tag0 #####
-
--- leaves? (base cases)
 [] -- nothing
-[0] -- false
+[0]: [] -- false
 [1] -- true
+[00]: ([] -> [1]) -- =[]?
+[00]: (_ -> [0]) 
+[01]: <[0] || [1]> -- bool
+[10]: ([0] -> [1]) -- =0?
+[10]: ([1] -> [0])
+[11]: ([0] -> [0]) -- =1?
+[11]: ([1] -> [1])
+[000] -- just 0
+[001] -- just 1
+[010]: ( [01] => < [] || [000] || [001] > )  -- maybe
+[011]: ([] -> []) -- tail
+[011]: ( ([101] ([0000])) -> [0000] )
+[011]: ( ([110] ([0000])) -> [0000] )
+[100]: ([] -> []) -- head
+[100]: ( ([101] _) -> [0] )
+[100]: ( ([110] _) -> [1] )
+[101] -- cons 0
+[110] -- cons 1
+[111]: ( [01] => ( ([0000]) -> < [] || ([101] [0000]) || ([110] [0000]) > ) -- list
+#############################
+```
 
--- maybe 
-maybe: ( ([00000]) => < [] || just ([00000]) > )   < []| | >
 
--- isNothing
-[=[]?]: ([] -> [1])
-[=[]?]: ((just _) -> [0])
-
+fucntion ideas: 
+```
 -- consToMaybe
-[consToMaybe]: (((cons head) _) -> just head)
 [consToMaybe]: ([] -> [])
-
--- in haskell: data forall a. Maybe a = Nothing | Just a
+[consToMaybe]: (((cons head) _) -> just head)
+```
+notes: 
+```
+ Nothing | Just a
 -- forall a. = ([00000]) =>
 -- < | > = |
 -- just ([00000]) = Just a
@@ -73,31 +67,4 @@ maybe: ( ([00000]) => < [] || just ([00000]) > )   < []| | >
 -- Just = \x j n -> j x
 -- Nothing = \j n -> n
 -- isJust = \m -> m (const True) False
-
--- list
-[000]: (([00000]) => < pure  | ([001]  [00000]) > )
-
--- first/head
-[100]: ([] -> [])
-[100]: (([00000]) -> )
-
--- second/tail
-[101]: ([] -> [])
-[101]: ()
-
--- id
-[111]: (([00000]) -> [00000])
-
--- bool
-[01]: <[0] | [1]>
-
--- =0?
-[10]: ([0] -> [1])
-[10]: ([1] -> [0])
-
--- =1?
-[11]: ([0] -> [0])
-[11]: ([1] -> [1])
-
-
 ```
