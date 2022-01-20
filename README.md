@@ -42,7 +42,7 @@ the abstraction game language
 #############################
 ```
 
-fucntion ideas: 
+function ideas: 
 ```
 -- consToMaybe
 [consToMaybe]: ([] -> [])
