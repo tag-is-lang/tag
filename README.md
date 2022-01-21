@@ -44,19 +44,11 @@ the abstraction game language
 
 function ideas: 
 ```
--- consToMaybe
-[consToMaybe]: ([] -> [])
-[consToMaybe]: (((cons head) _) -> just head)
+[0100]: (< []:[] || (< [([101] |>)]:[000] || [([110) |>]:[001] >) >) -- maybeHead
 ```
 notes: 
 ```
- Nothing | Just a
--- forall a. = ([00000]) =>
--- < | > = |
--- just ([00000]) = Just a
-
--- maybe a = forall b. (a -> b) -> b -> b
--- Just = \x j n -> j x
--- Nothing = \j n -> n
--- isJust = \m -> m (const True) False
+-- forall a. = [(|[00000]>)] :
+-- | = < || >
+-- Just a = [000] or [001] -- bool only instance of maybe
 ```
