@@ -45,6 +45,7 @@ the abstraction game language
 function ideas: 
 ```
 [0100]: (< []:[] || (< [([101] |>)]:[000] || [([110) |>]:[001] >) >) -- maybeHead
+[1111]: (| [(|[0000]>)]:[0000] >) -- id
 ```
 notes: 
 ```
