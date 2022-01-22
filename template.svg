@@ -7,7 +7,7 @@
    viewBox="0 0 270.93333 270.93334"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
    sodipodi:docname="template.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,21 +24,33 @@
      inkscape:document-units="px"
      showgrid="false"
      units="px"
-     inkscape:zoom="0.74118967"
-     inkscape:cx="472.21381"
-     inkscape:cy="529.55406"
-     inkscape:window-width="1920"
-     inkscape:window-height="1057"
-     inkscape:window-x="5"
-     inkscape:window-y="-8"
+     inkscape:zoom="0.55175781"
+     inkscape:cx="545.5292"
+     inkscape:cy="573.62124"
+     inkscape:window-width="1366"
+     inkscape:window-height="768"
+     inkscape:window-x="0"
+     inkscape:window-y="-29"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid11353" />
+  </sodipodi:namedview>
   <defs
-     id="defs2" />
+     id="defs2">
+    <rect
+       x="409.36221"
+       y="394.80118"
+       width="157.7458"
+       height="161.48701"
+       id="rect94787" />
+  </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     style="display:inline">
     <rect
        style="fill:#ff031d;fill-opacity:1;stroke-width:5.29167;stroke-linecap:round;stroke-dashoffset:83.6023"
        id="rect3185"
@@ -51,8 +63,8 @@
        id="rect6565"
        width="20.704342"
        height="121.72717"
-       x="262.37378"
-       y="73.536049" />
+       x="259.15921"
+       y="74.213173" />
     <rect
        style="fill:#3079ec;fill-opacity:1;stroke-width:5.29167;stroke-linecap:round;stroke-dashoffset:83.6023"
        id="rect9555"
@@ -67,5 +79,16 @@
        height="20.347345"
        x="72.10817"
        y="260.23196" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-85.24453"
+       y="111.47321"
+       id="text151533"><tspan
+         sodipodi:role="line"
+         id="tspan151531"
+         style="stroke-width:0.264583"
+         x="-85.24453"
+         y="111.47321" /></text>
   </g>
 </svg>

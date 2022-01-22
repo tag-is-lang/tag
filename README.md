@@ -59,8 +59,10 @@ notes:
 Tag-lang will be adapted into a graphical esolang. Here are some examples:
 
 `[0]:[]`
+
 ![](0.png)
 
 `[1]`
+
 ![](1.png)
 
