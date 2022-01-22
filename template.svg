@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1024"
+   height="1024"
+   viewBox="0 0 270.93333 270.93334"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="template.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#000000"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="0.74118967"
+     inkscape:cx="472.21381"
+     inkscape:cy="529.55406"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="5"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ff031d;fill-opacity:1;stroke-width:5.29167;stroke-linecap:round;stroke-dashoffset:83.6023"
+       id="rect3185"
+       width="141.0036"
+       height="14.992788"
+       x="59.614182"
+       y="-4.640625" />
+    <rect
+       style="fill:#e0ed36;fill-opacity:1;stroke-width:5.29167;stroke-linecap:round;stroke-dashoffset:83.6023"
+       id="rect6565"
+       width="20.704342"
+       height="121.72717"
+       x="262.37378"
+       y="73.536049" />
+    <rect
+       style="fill:#3079ec;fill-opacity:1;stroke-width:5.29167;stroke-linecap:round;stroke-dashoffset:83.6023"
+       id="rect9555"
+       width="20.347357"
+       height="114.58773"
+       x="-6.7824516"
+       y="85.673073" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke-width:5.29167;stroke-linecap:round;stroke-dashoffset:83.6023"
+       id="rect9739"
+       width="133.86418"
+       height="20.347345"
+       x="72.10817"
+       y="260.23196" />
+  </g>
+</svg>

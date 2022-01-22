@@ -27,7 +27,7 @@ the abstraction game language
 [] -- nothing
 [0]: [] -- false
 [1] -- true
-[00]: (< []:[1] || _:[0] >) -- =[]?
+[00]: (< []:[1] || _:[0] >) -- =[]?   ( <| --option  |> --other option    ) -- function
 [01]: [< [0] || [1] >] -- bool
 [10]: (< [0]:[1] || [1]:[0] >) -- =0?
 [11]: (< [0]:[0] || [1]:[1] >) -- =1?
@@ -53,3 +53,14 @@ notes:
 -- | = < || >
 -- Just a = [000] or [001] -- bool only instance of maybe
 ```
+
+## Graphics
+
+Tag-lang will be adapted into a graphical esolang. Here are some examples:
+
+`[0]:[]`
+![](0.png)
+
+`[1]`
+![](1.png)
+
