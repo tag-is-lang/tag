@@ -1,4 +1,4 @@
-# tag-lang
+# taglang
 the abstraction game language
 ```
 ######### kinds ###########
@@ -27,9 +27,9 @@ the abstraction game language
 [] -- nothing
 [0]: [] -- false
 [1] -- true
-[00]: (< []:[1] || _:[0] >) -- =[]?   ( <| --option  |> --other option    ) -- function
+[00]: (< []:[1] || _:[0] >) -- =[]? and =0?  ( <| --option  |> --other option    ) -- function
 [01]: [< [0] || [1] >] -- bool
-[10]: (< [0]:[1] || [1]:[0] >) -- =0?
+[10]: (< [0]:[1] || [1]:[0] >)
 [11]: (< [0]:[0] || [1]:[1] >) -- =1?
 [000] -- just 0
 [001] -- just 1
