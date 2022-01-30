@@ -1,0 +1,29 @@
+title: kappann.eu
+author: 
+  name: Claudio Nicoli Pannacci
+  email: claudio.pannacci@protonmail.com
+description: > 
+  a website i said i would never make
+
+header_pages:
+
+show_excerpts: false
+
+remote_theme: jekyll/minima
+
+minima:
+  skin: dark
+  date_format: "%Y-%m-%-d"
+  social_links:
+    github: kappanneo
+    telegram: kappanneo
+
+    youtube_channel: UCf6quihS27BUnkKfJfLM4Gw
+    youtube_channel_name: kappanneo
+
+    gitlab:
+      - username: kappanneo
+      - instance: gitlab.com
+
+plugins:
+  - jekyll-feed
