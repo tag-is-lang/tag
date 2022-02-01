@@ -1,4 +1,4 @@
-# taglang
+# tag
 the abstraction game language
 
 ## kinds
