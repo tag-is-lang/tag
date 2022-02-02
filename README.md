@@ -112,7 +112,7 @@ the abstraction game
 from haskell
 ```
 -- forall a. = [(|[00000]>)] :
--- | = < || >
+-- ( | )     = < || >
 ```
 
 ## graphical
