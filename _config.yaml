@@ -1,9 +1,9 @@
-title: kappann.eu
+title: tag-lang.org
 author: 
   name: Claudio Nicoli Pannacci
   email: claudio.pannacci@protonmail.com
 description: > 
-  a website i said i would never make
+  the abstraction game language
 
 header_pages:
 
@@ -15,15 +15,7 @@ minima:
   skin: dark
   date_format: "%Y-%m-%-d"
   social_links:
-    github: kappanneo
-    telegram: kappanneo
-
-    youtube_channel: UCf6quihS27BUnkKfJfLM4Gw
-    youtube_channel_name: kappanneo
-
-    gitlab:
-      - username: kappanneo
-      - instance: gitlab.com
+    github: tag-lang
 
 plugins:
   - jekyll-feed
