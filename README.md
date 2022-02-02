@@ -1,5 +1,5 @@
 # tag
-the abstraction game language
+the abstraction game
 
 ## kinds
 
