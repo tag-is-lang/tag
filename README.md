@@ -109,7 +109,7 @@ the abstraction game
 [1111] :: ( [|00000>]:[|00000>] )    -- id
 [1111] : ( [(|[00000]>)] : [00000] )
 ```
-from haskell: 
+from haskell
 ```
 -- forall a. = [(|[00000]>)] :
 -- | = < || >
