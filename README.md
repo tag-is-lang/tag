@@ -1,7 +1,10 @@
 # tag
 the abstraction game
 
-## kinds
+## tag0
+
+### tag0.textual
+#### tag0.textual.types
 
 ```
 |> -- kind (*)
@@ -10,15 +13,22 @@ the abstraction game
 
 () -- function
 ```
-### equivalencies
+derived
+```
+[|>] -- any concrete type
+
+(|>) -- any abstract type
+```
+equivalencies
 ```
 (()) ≡ () -- function composition
 
 ([]) ≡ [] -- function application
-
 ```
-## textual
-### tag0
+## tag01
+
+### tag01.textual
+
 ```
 [] :: [|>]                          -- null
 
@@ -30,8 +40,8 @@ the abstraction game
 [00] :: ( [|>]:[01] )               -- null? - (=? null)
 [00] : ([]:[1] [0])
 
-[01] :: |>
-[01] : < [0] || [1] >               -- bool
+[01] :: |>                          -- bool
+[01] : < [0] || [1] >
 
 [10] :: ( [01]:[01] )               -- false? - (=? false)
 [10] : [00]
@@ -115,9 +125,7 @@ from haskell
 -- ( | )     = < || >
 ```
 
-## graphical
-
-### tag0
+### tag01.graphical
 
 `[0]:[]`
 
