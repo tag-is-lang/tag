@@ -4,15 +4,14 @@ the abstraction game
 ## index
 
 - [tag[]](#tag[])
-   - [textual](#tag[].textual)
-      - [types](#tag[].textual.types)
+   - [textual](#tag[]-textual)
 - [tag01](#tag01)
-   - [textual](#tag01.textual)
-   - [graphical](#tag01.graphical)
+   - [textual](#tag01-textual)
+   - [graphical](#tag01-graphical)
 
 ## tag[]
 
-### tag[].textual
+### tag[]-textual
 ```
 [] :: [|>]                          -- null
 
@@ -31,7 +30,7 @@ the abstraction game
 
 ## tag01
 
-### tag01.textual
+### tag01-textual
 
 ```
 [0] :: [01]                         -- flse
@@ -127,7 +126,7 @@ from haskell
 -- ( | )     = < || >
 ```
 
-### tag01.graphical
+### tag01-graphical
 
 `[0]:[]`
 
