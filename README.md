@@ -1,10 +1,19 @@
 # tag
 the abstraction game
 
-## tag0
+### index
 
-### tag0.textual
-#### tag0.textual.types
+- [tag[]](#tag[])
+   - [textual](#tag[].textual)
+      - [types](#tag[].textual.types)
+- [tag01](#tag01)
+   - [textual](#tag01.textual)
+   - [graphical](#tag01.graphical)
+
+## tag[]
+
+### tag[].textual
+#### tag[].textual.types
 
 ```
 |> -- kind (*)
