@@ -24,9 +24,9 @@
      inkscape:document-units="px"
      showgrid="false"
      units="px"
-     inkscape:zoom="0.55175781"
-     inkscape:cx="545.52921"
-     inkscape:cy="428.63009"
+     inkscape:zoom="0.68457031"
+     inkscape:cx="825.33524"
+     inkscape:cy="544.13695"
      inkscape:window-width="1366"
      inkscape:window-height="710"
      inkscape:window-x="0"
@@ -115,11 +115,11 @@
          x="-85.24453"
          y="111.47321" /></text>
     <path
-       style="fill:#ff031d;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       style="fill:#ff031d;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="M 123.53864,61.736393 50.213979,132.75742 135.1974,187.83956 Z"
        id="path5235" />
     <path
-       style="fill:#ff031d;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       style="fill:#ff031d;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 134.36197,61.31969 12.15474,126.2384 c 0,0 77.51287,-76.69655 75.52683,-77.13551 -1.98604,-0.43896 -87.68157,-49.10289 -87.68157,-49.10289 z"
        id="path17808" />
     <rect
@@ -127,24 +127,13 @@
        id="rect28128"
        width="45.724369"
        height="35.821804"
-       x="117.88847"
-       y="168.27377" />
+       x="117.81712"
+       y="178.84143" />
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
        id="text46295"
        style="font-style:normal;font-weight:normal;font-size:74.66666807px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect46297);fill:#000000;fill-opacity:1;stroke:none" />
-    <text
-       xml:space="preserve"
-       style="font-size:22.5778px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
-       x="127.16329"
-       y="195.13176"
-       id="text64035"><tspan
-         sodipodi:role="line"
-         id="tspan64033"
-         style="stroke-width:0.264583"
-         x="127.16329"
-         y="195.13176">01</tspan></text>
     <rect
        style="fill:#e0ed36;fill-opacity:1;stroke-width:0.264583"
        id="rect64675"
@@ -171,7 +160,7 @@
        style="font-size:85.3333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect88258)"><tspan
          x="315.08789"
          y="505.34958"
-         id="tspan94470">0</tspan></text>
+         id="tspan1199">0</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,77.494488,-8.1067346)"
@@ -179,6 +168,26 @@
        style="font-size:85.3333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect88258-6);display:inline"><tspan
          x="315.08789"
          y="505.34958"
-         id="tspan94472">1</tspan></text>
+         id="tspan1201">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22.5778px;line-height:1.25;font-family:sans-serif;display:inline;stroke-width:0.264583"
+       x="127.06034"
+       y="205.90123"
+       id="text64035"><tspan
+         sodipodi:role="line"
+         id="tspan64033"
+         style="stroke-width:0.264583"
+         x="127.06034"
+         y="205.90123">01</tspan></text>
+    <path
+       id="path17808-3"
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 550.5918 675.93555 L 553.76367 708.88086 C 553.76367 708.88086 571.1644 691.61446 586.95508 675.93555 L 550.5918 675.93555 z "
+       transform="scale(0.26458333)" />
+    <path
+       id="path5235-6"
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 121.31453,178.84115 13.88287,8.99841 -0.83199,-8.99841 z" />
   </g>
 </svg>
