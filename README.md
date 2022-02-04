@@ -1,7 +1,7 @@
 # tag
 the abstraction game
 
-### index
+## index
 
 - [tag[]](#tag[])
    - [textual](#tag[].textual)
@@ -13,35 +13,28 @@ the abstraction game
 ## tag[]
 
 ### tag[].textual
-#### tag[].textual.types
+```
+[] :: [|>]                          -- null
+
+[|>] :: |>                          -- kind
+
+[[]] :: |>                          -- data
+
+[()] :: |>                          -- func
+
+[:] :: ( [|>] : (|>) : [|>] )       -- defn
+
+[::] :: ???                         -- type
 
 ```
-|> -- kind (*)
 
-[] -- data (nullary function)
 
-() -- function
-```
-derived
-```
-[|>] -- any concrete type
-
-(|>) -- any abstract type
-```
-equivalencies
-```
-(()) ≡ () -- function composition
-
-([]) ≡ [] -- function application
-```
 ## tag01
 
 ### tag01.textual
 
 ```
-[] :: [|>]                          -- null
-
-[0] :: [01]                         -- false
+[0] :: [01]                         -- flse
 [0] : []
 
 [1] :: [01]                         -- true
@@ -52,7 +45,7 @@ equivalencies
 [01] :: |>                          -- bool
 [01] : < [0] || [1] >
 
-[10] :: ( [01]:[01] )               -- false? - (=? false)
+[10] :: ( [01]:[01] )               -- flse? - (=? flse)
 [10] : [00]
 
 [11] :: ( [01]:[01] )               -- true? - (=? true)
@@ -114,10 +107,10 @@ equivalencies
 
 [0001] :: []                         -- just 1
 
-[0010] :: |>                         -- maybe bool
+[0010] :: |>                         -- mayb bool
 [0010] : < [] || < [0000] || [0001] >  >
 
-[0100] :: ()                         -- mhead
+[0100] :: ()                         -- mbhd
 [0100] : 
  ( [] : []
     ( [([010] |>)] : [0]
@@ -125,7 +118,7 @@ equivalencies
     )
  )
 
-[1111] :: ( [|00000>]:[|00000>] )    -- id
+[1111] :: ( [|00000>]:[|00000>] )    -- same
 [1111] : ( [(|[00000]>)] : [00000] )
 ```
 from haskell
