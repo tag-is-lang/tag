@@ -100,7 +100,7 @@ the abstraction game
 [111] :: |>                          -- list bool
 [111] : < [] || < ([010] |[1111]>) || ([101] |[1111]>) > >
 ```
-#### possible extention
+possible extention
 ```
 [0000] :: []                         -- just 0
 
