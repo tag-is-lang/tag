@@ -5,13 +5,19 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
-        <p class="feed-subscribe tag-red">
+        <p>{{ site.description | escape }}</p>
+        <p class="feed-subscribe">
           <a href="{{ 'feed.xml' | relative_url }}">
             <svg class="svg-icon white">
               <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-            </svg><span>Subscribe</span>
+            </svg><span>subscribe</span>
           </a>
+          <span> | </span>
+          <a href="https://github.com/tag-lang/template/edit/master/README.md">edit this page</a>
+          <!-- > TODO: edit link ^ </-->
         </p>
+      </div>
+      <div class="footer-col">
       {%- if site.author %}
         <ul class="contact-list">
           {% if site.author.name -%}
@@ -22,10 +28,6 @@
           {%- endif %}
         </ul>
       {%- endif %}
-      </div>
-      <div class="footer-col">
-        <p>{{ site.description | escape }}</p>
-        <p><a href="https://github.com/tag-lang/tag/edit/master/README.md">edit this page</a></p>
       </div>
     </div>
 

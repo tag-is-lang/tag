@@ -29,12 +29,11 @@ $table-header-border:   lighten($background-color, 21%) !default;
 $table-border-color:    $border-color-01 !default;
 
 h1, h2, h3, h4, h5, h6 {
-  color: $tag-yellow
+  color: $tag-yellow;
 }
 
-.tag-red {
-   a { color: $tag-red }
-   &:visited { color: $tag-red }
+.contact-list {
+   text-align: right
 }
 
 // Syntax highlighting styles should be adjusted appropriately for every "skin"
