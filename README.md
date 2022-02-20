@@ -14,7 +14,6 @@ the abstraction game
 ### tag[]-textual
 ```
 [] :: []                            -- null
-
 ```
 
 ## tag01
