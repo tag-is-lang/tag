@@ -5,7 +5,7 @@ author:
 description: > 
   the abstraction game language
 
-header_pages:
+edit: https://github.com/tag-lang/tag/edit/master/README.md 
 
 show_excerpts: false
 
@@ -17,5 +17,5 @@ minima:
   social_links:
     github: tag-lang
 
-plugins:
-  - jekyll-feed
+# plugins:
+#   - jekyll-feed

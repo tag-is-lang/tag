@@ -8,12 +8,14 @@
         <p>{{ site.description | escape }}</p>
         <p class="feed-subscribe">
           <a href="{{ 'feed.xml' | relative_url }}">
-            <svg class="svg-icon white">
-              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+            <svg class="svg-icon">
+              <use xlink:href="https://tag-lang.org/feed.xml"></use>
             </svg><span>subscribe</span>
           </a>
           <span> | </span>
-          <a href="https://github.com/tag-lang/tag/edit/master/README.md">edit this page</a>
+          <span class="meta">
+             <a  href="{{ site.edit }}">edit this page</a>
+          </span>
         </p>
       </div>
       <div class="footer-col">

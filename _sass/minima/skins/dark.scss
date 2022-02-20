@@ -32,8 +32,17 @@ h1, h2, h3, h4, h5, h6 {
   color: $tag-yellow;
 }
 
+.meta {
+  a:link, a:visited {
+  color: $tag-red;
+  }
+  a:link:active, a:visited:active {
+  color: $tag-red;
+  }
+}
+
 .contact-list {
-   text-align: right
+  text-align: right
 }
 
 // Syntax highlighting styles should be adjusted appropriately for every "skin"
