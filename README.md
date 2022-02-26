@@ -3,7 +3,7 @@ the abstraction game
 
 ## null
 
-### textual
+### null-textual
 [null.tag](./src/null.tag)
 ```
 ([defn] |(
@@ -13,17 +13,17 @@ the abstraction game
 )>)
 ```
 
-### graphical
+### null-graphical
 
 `[]: []`
 
 ![]([].png)
 ## bool
 
-### textual
+### bool-textual
 [bool.tag](./src/bool.tag)
 
-### graphical
+### bool-graphical
 
 `[0]: []`
 
