@@ -26,7 +26,7 @@ the abstraction game
     [+]: |> |> () :: ( [(t)] |> [(t)] |> [(t)] )
   ]
 ```
-### it that a main?
+### is that a main?
 maybe 
 
 ![test.t](/src/txt/test.t.txt)
