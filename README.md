@@ -18,7 +18,9 @@ the abstraction game
 
 ## some other syntax concept that does not have a place yet
 
-### type class ???
+### type classes
+very ugly but may work graphically... i hope
+
 ![numeric.t](/src/txt/numeric.t.tag)
 ```
 [numeric]: |(t)> 
