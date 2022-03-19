@@ -1,0 +1,5 @@
+[answer]: [a+b] :: [bool] ::: [bool is numeric]
+[a]: [0] :: [bool] 
+[b]: [1] :: [bool]
+[bool.+]: [xor]
+[main]: [print answer] :: [io] []

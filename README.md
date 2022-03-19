@@ -2,20 +2,38 @@
 the abstraction game
 
 ## boolean logic module
+(xor is all you need, right?)
 
 ### bool-textual
-WIP
+![bool.t](/src/txt/bool.t.txt)
+```
+[bool]: < [0] || [1] > :: |>
+[xor]: |> |> ( [0][0]:[0] [1][1]:[0] [1] ) :: ( [bool] |> [bool] |> [bool] )
+```
 
 ### bool-graphical
 
-`[0]: []`
 
-![](/src/png/0.png)
+![bool.g.png](/src/png/bool.g.png)
 
-`[1]: [1]`
+## some other syntax concept that does not have a place yet
 
-![](/src/png/1.png)
+### type class ???
+![numeric.t](/src/txt/numeric.t.tag)
+```
+[numeric]: |(t)> 
+  [ [|(a)> +|(b)>]: [+] [(a)] [(b)]
+    [+]: |> |> () :: ( [(t)] |> [(t)] |> [(t)] )
+  ]
+```
+### it that a main?
+maybe 
 
-`[01]: < [0] || [1] >`
-
-![](/src/png/01.png)
+![test.t](/src/txt/test.t.txt)
+```
+[answer]: [a+b] :: [bool] ::: [bool is numeric]
+[a]: [0]
+[b]: [1]
+[bool.+]: [xor]
+[main]: [print answer] :: [io] []
+```
