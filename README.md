@@ -1,38 +1,21 @@
 # tag
 the abstraction game
 
-## null
-
-### null-textual
-[null.tag](./src/null.tag)
-```
-([defn] |(
-
-[]: [] ::[|>]                           -- null
-
-)>)
-```
-
-### null-graphical
-
-`[]: []`
-
-![]([].png)
-## bool
+## boolean logic module
 
 ### bool-textual
-[bool.tag](./src/bool.tag)
+WIP
 
 ### bool-graphical
 
 `[0]: []`
 
-![](0.png)
+![](/src/png/0.png)
 
 `[1]: [1]`
 
-![](1.png)
+![](/src/png/1.png)
 
 `[01]: < [0] || [1] >`
 
-![](01.png)
+![](/src/png/01.png)
