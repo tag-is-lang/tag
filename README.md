@@ -16,7 +16,7 @@ the abstraction game
 
 ![bool.g.png](/src/png/bool.g.png)
 
-## some other syntax concept that does not have a place yet
+## some other syntax concepts that do not have a place yet
 
 ### type classes
 very ugly but may work graphically... i hope
